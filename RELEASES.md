@@ -1,5 +1,9 @@
 # Releases
 
+## 0.1.0
+
+- Remove config file
+
 ## 0.0.8.1
 
 - Fix dependencies
