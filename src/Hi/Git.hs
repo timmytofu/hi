@@ -6,7 +6,6 @@ module Hi.Git
     ) where
 
 import           Hi.Types
-import           Hi.Utils
 
 import           Control.Applicative
 import           Data.List           (isPrefixOf)
