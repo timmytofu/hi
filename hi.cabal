@@ -95,7 +95,7 @@ executable hi
       , process
       , split
       , template   == 0.2.*
-      , temporary-rc  == 1.2.0.3
+      , temporary  >= 1.2.0.3
       , text       > 1.0
       , time
 
@@ -121,7 +121,7 @@ test-suite spec
       , process
       , split
       , template    == 0.2.*
-      , temporary-rc   == 1.2.0.3
+      , temporary   >= 1.2.0.3
       , text       > 1.0
       , time
 
