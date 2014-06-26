@@ -53,7 +53,7 @@ showFileList files = do
 --
 -- 2. substitute arguments
 process :: Option -> Files -> Files
-process option@(Option {..}) = map go
+process Option {..} = map go
   where
     go (path, content) = if ".template" `isSuffixOf` path
                            then (rewritePath' path, substitute' content)

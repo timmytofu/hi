@@ -3,8 +3,8 @@ module Main where
 import           Hi                    (run)
 import           Hi.Option             (buildOption, defaultRepo)
 import           Hi.Option.Commandline (commandLineOption)
-import           Hi.Types
 import qualified Hi.Version            as Version
+
 import           Options.Applicative
 
 main :: IO ()

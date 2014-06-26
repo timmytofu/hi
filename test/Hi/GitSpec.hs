@@ -1,6 +1,5 @@
 module Hi.GitSpec ( spec ) where
 
-import           Hi.Types
 import           Hi.Git
 
 import           Test.Hspec
